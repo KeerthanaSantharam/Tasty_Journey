@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+html, body 
+{ height:100%; }
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.navbar
+{
+   background: linear-gradient(to bottom, #99cc00 0%, #ffffff 100%);
+  
+    text-transform:uppercase;
+
+   
+}
+ .navbar .navbar-toggle
+{
+   border-color: transparent;
+    
+}
+.navbar .navbar-toggle .icon-bar
+{
+    background-color: #f00;
+}
+.navbar .navbar-toggle .icon-bar:hover {
+  background-color: #fff; /* Changes toggle color on hover */
+}
+ul li
+{
+    display: inline-block;
+}
+
+ nav ul li a
+{
+   
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease-in;
+    
+}
+
+ nav ul li a:hover
+{
+    
+    color: red;
+    
+}
+#firstimage
+{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(img/food.jpg) ;
+  background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    min-height: 1000px;
+    
+    
+  
+
+   
+   
+    
+     
+}
+h3
+{
+    color: white;
+
+   
+     margin-top: 25%;
+}
+    
+    
+    
+}
+
+
+/*body,html
+{
+    height: 100%;
+    margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.bg
+{
+    background-image: url("img/food.jpg");
+    height: 100%;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.navbar{
+  padding: 0;
+  margin-bottom: 0;
+ 
+  text-transform:uppercase;
+ 
+
+ 
+}
+.navbar-right
+{
+    list-style: none;
+    float: right;
+    margin-top:60px;
+}
+
+.navbar-right li
+{
+   display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar-right li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.navbar-right li a:hover
+{
+    color:#e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.5s ease-in;
+    padding:15 px 0;
+    
+}*/
