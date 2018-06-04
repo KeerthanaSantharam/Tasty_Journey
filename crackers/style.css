@@ -1,21 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+
+
+/*
 * {
     box-sizing: border-box;
 }
 html, body 
 { height:100%; }
-body
+/*body
 {
     overflow-y: scroll;
     overflow-x: hidden; 
+}*/
+/*
+.site-navbar-light
+{
+    background: transparent !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 3;
 }
+
 .navbar
 {
-   background: linear-gradient(to bottom, #99cc00 0%, #ffffff 100%);
+   
   
     text-transform:uppercase;
 
    
 }
+
  .navbar .navbar-toggle
 {
    border-color: transparent;
@@ -25,57 +44,62 @@ body
 {
     background-color: #f00;
 }
-.navbar .navbar-toggle .icon-bar:hover {
-  background-color: #fff; /* Changes toggle color on hover */
+*/
+/*.navbar .navbar-toggle .icon-bar:hover {
+  background-color: #fff; *//* Changes toggle color on hover */
 }
+/*
 ul li
 {
     display: inline-block;
 }
+*/
 
- nav ul li a
+ /*nav ul li a
 {
    
     font-weight: bold;
     color: white;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;*/
+   /* padding-right: 30px;
     
-}
-
+}*/
+/*
  nav ul li a:hover
 {
     
     color: red;
     
 }
-#firstimage
+.logo-name
 {
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(img/food.jpg) ;
+    text-align: center;
+    font:italic bold 12px/30px Georgia, serif;
+    color: white;
+}
+#firstimage 
+{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url(img/food.jpg) ;
   background-position: center;
     background-size: cover;
     background-attachment: fixed;
     
     min-height: 1000px;
-    
-    
-  
-
+    width: 100%;
    
-   
-    
-     
 }
-h3
+.text-center h2
 {
-    color: white;
+       text-align: center;
+color: white;
 
    
-     margin-top: 25%;
-}
-    
-    
+     
+    font-weight: bold;
     
 }
+    */
+ 
 
 
 /*body,html

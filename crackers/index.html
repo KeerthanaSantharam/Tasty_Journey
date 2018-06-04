@@ -3,28 +3,131 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
 <!-- jQuery library -->
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
 <!-- Latest compiled JavaScript -->
-<!--<script src="js/caroufredsel.js"></script>-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
  <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link href="style.css" rel="stylesheet" type="text/css"> 
     </head>
     <body>
+    
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+           <a class="navbar-brand" href="#"><img src="img/g.png" class="img-circle" width="100" height="100"></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+              <span class="navbar-toggler-icon"></span>
+               </button> 
+               <div class="collpase navbar-collapse" id="navbarResponsive">
+                   <ul class="navbar-nav ml-auto">
+                       <li class="nav-item active">
+                           <a class="nav-link" href="#">Home</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">About</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Services</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Clients</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Our Team</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Connect</a>
+                       </li>
+                   </ul>
+               </div>
+          
+        </div>
+    </nav>
+    <!-- ImageSlider-->
+    <div id ="slides" class="carousel slide" data-ride="carousel">
+     <ul class="carousel-indicators">
+         <li data-target="#slides" data-slide-to="0" class="active"></li>
+         <li data-target="#slides" data-slide-to="1"></li>
+         <li data-target="#slides" data-slide-to="2"></li>
+     </ul>  
+     <div class="carousel-inner">
+         <div class="carousel-item active">
+             <img src="img/background.jpg">
+             <div class="carousel-caption">
+                 <h1 class="display-2">Tasty</h1>
+                 <h3>Food to Fit your Lifestyle & health </h3>
+                 <button type="button" class="btn btn-outline-light btn-lg">Book a table</button>
+             </div>
+         </div>
+         <div class="carousel-item">
+             <img src="img/9.jpg">
+         </div>
+         <div class="carousel-item">
+             <img src="img/food.jpg">
+         </div>
+     </div> 
+    </div>
+    <!-- Jumbotron
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><buton type="button" class="btn btn-outline-secondary btn-lg">Menu</buton></a>
+            </div>
+        </div>
+    </div>
+    -->
+    <!-- Welcome Section-->
+    
+    <div class="container padding">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="header-h">Tasty Journey</h1>
+          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+        </div>
+       
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="heading">vel illum qui dolorem eum</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
+              <div class="details-list">
+                <ul>
+                  <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                  <li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
+                  <li><i class="fa fa-check"></i>Vivamus accumsan porttitor justo sed </li>
+                  <li><i class="fa fa-check"></i>Curabitur at massa id tortor fermentum luctus</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <img src="img/1.jpg" alt="about" class="img-fluid">
+          </div>
+        </div>
+        
+      </div>
+    
+  
+
+<!--
      <section>
-      
-       <nav class="navbar  navbar-fixed-top" data-spy="affix">
+      <!--
+       <nav class="navbar  navbar-fixed-top site-navbar-light sleep navbar-expand-lg  navbar-dark site_navbar" data-spy="affix">
         
          <div class="container">
-<!--            Brand and toggle get grouped for better mobile display -->
+            Brand and toggle get grouped for better mobile display 
         <div class="navbar-header">
             <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
@@ -53,19 +156,17 @@
      
      <div class="container">
          <div class="row">
-            <div class=".col-md-6 .col-md-offset-3 ">
-                <h3>GOODBYE JUNKFOOD! HELLO SUPER HEALTHY MEALS</h3>
-            </div>
-            <div class=".col-6 ">
-                 <div class="button">
-                <a href="" class="btn btn-half">Show me more</a>
-                <a href="" class="btn btn-full">I am hungry</a>
-         </div>
-            </div>
+           <div class="inner text-center">
+               <h1 class="name">Delicious</h1>
+                <h2>Food To Fit Your Lifestyle & Health</h3>
+                <p>Specialized in Indian Cuisine!!</p>
+            
+               
              
-         
+             </div> 
      </div>
      </div>
+-->
 
     
               <!-- <div class="container">
@@ -82,7 +183,7 @@
              -->
          
        
-        </section>
+<!--        </section>-->
          
      <!--<script src="js/main.js"></script>-->
       <!-- <div class="bg">
