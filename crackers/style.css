@@ -2,7 +2,35 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
-
+.meal-showcase
+{
+    list-style: none;
+    width: 100%;
+    
+}
+.meal-showcase li
+{
+    display: block;
+    width: 25%;
+    float: left;
+}
+.meal-photo
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.meal-photo img
+{
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+.meal-photo img:hover
+{
+    transform: scale(1.05);
+}
 
 
 /*
