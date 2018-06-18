@@ -14,6 +14,8 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- my javascript -->
+<script src="custom.js"></script>
  <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link href="style.css" rel="stylesheet" type="text/css"> 
@@ -189,145 +191,134 @@
      </div>
  </div>
   <!-- Menu-->
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12 text-center mb-5">
-             <h2 class="display-4">Tasty Menu</h2>
-             <div class="row justify-content-center">
-                 <div class="col-md-7">
-                     <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
-nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                 </div>
-             </div>
-              
-          </div>
-          <div class="col-sm-12 text-center">
-          <!-- pills item-->
-          <ul class="nav nav-pills mb-5 justify-content-center  site-tab-nav" id="pills-tab" role="tablist">
-  <li class="nav-item fadeInUp">
-    <a class="nav-link active mx-2 " id="pills-breakfast-tab" data-toggle="pill" href="#pills-breakfast" role="tab" aria-controls="pills-breakfast" aria-selected="true">BREAKFAST</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link mx-2" id="pills-lunch-tab" data-toggle="pill" href="#pills-lunch" role="tab" aria-controls="pills-lunch" aria-selected="false">LUNCH</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link mx-2" id="pills-dinner-tab" data-toggle="pill" href="#pills-dinner" role="tab" aria-controls="pills-dinner" aria-selected="false">DINNER</a>
-  </li>
-</ul>
-<!-- pills content-->
-<div class="tab-content text-left ">
-  <!-- breakfast-->
-     <div class="tab-pane fade show active" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab">
-      <div class="row">
-          <div class="col-md-6 site-animate">
-             <div class="media menu-item">
-                 <img class="mr-3" src="img/idly.jpg" class="img-fluid">
-                 <div class="media-body">
-                     <h5 class="mt-0">Idly</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              <div class="media menu-item">
-                 <img class="mr-3" src="img/dosa.jpg" class="img-fluid">
-                 <div class="media-body">
-                     <h5 class="mt-0">dosa</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              <div class="media menu-item">
-                 <img class="mr-3" src="img/puri.jpg" class="img-fluid">
-                 <div class="media-body">
-                     <h5 class="mt-0">puri</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              
-          </div>
-      </div>
-  </div>
-    <!-- lunch-->
-    <div class="tab-pane fade show active" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">
-      <div class="row">
-          <div class="col-md-6 site-animate">
-             <div class="media menu-item">
-                 <img class="mr-3" src="img/south%20indian%20meals.jpg" class="img-fluid ">
-                 <div class="media-body">
-                     <h5 class="mt-0">Idly</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              <div class="media menu-item">
-                 <img class="mr-3" src="img/North%20Indian%20Thali.jpg" class="img-fluid ">
-                 <div class="media-body">
-                     <h5 class="mt-0">Idly</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              <div class="media menu-item">
-                 <img class="mr-3" src="img/tomato_curry.jpg" class="img-fluid ">
-                 <div class="media-body">
-                     <h5 class="mt-0">Idly</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              
-          </div>
-      </div>
-  </div>
-   <!-- dinner-->
-    <div class="tab-pane fade show active" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab">
-      <div class="row">
-          <div class="col-md-6 site-animate">
-             <div class="media menu-item">
-                 <img class="mr-3" src="img/Naan.jpg" class="img-fluid ">
-                 <div class="media-body">
-                     <h5 class="mt-0">naan</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              <div class="media menu-item">
-                 <img class="mr-3" src="img/teriyaki%20chciken.jpg" class="img-fluid ">
-                 <div class="media-body">
-                     <h5 class="mt-0">Idly</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              <div class="media menu-item">
-                 <img class="mr-3" src="img/rice%20lamb.jpg" class="img-fluid ">
-                 <div class="media-body">
-                     <h5 class="mt-0">Idly</h5>
-                     <p>Made of rice and urad flour.</p>
-                     <h6 class="text-primary menu-price">$20</h6>
-                     
-                 </div>
-             </div>
-              
-          </div>
-      </div>
-  </div>
-</div>
-          </div>
-      </div>
-  </div>
   
--->
-     <section>
+  <section id="menu-list" class="section-padding">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12 text-center marb-35">
+                   <h1 class="header-h">Menu List</h1>
+  <p  class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+               </div>
+               <div class="col-md-12 text-center" id="menu-filters">
+                   <ul>
+                        <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li>
+         <li><a class="filter " data-filter=".breakfast">Breakfast</a></li>
+         <li><a class="filter" data-filter=".lunch">Lunch</a></li>
+         <li><a class="filter" data-filter=".dinner">Dinner</a></li>
+                   </ul>
+               </div>
+           <div id="menu-wrapper">
+      <div class="breakfast menu-restaurant">
+        <span class="clearfix">
+          <a class="menu-title" href="#" data-meal-img=".jpg">Food Item Name</a>
+          <span style="left:166px;right:44px;" class="menu-line"></span>
+          <span class="menu-price">$20.99</span>
+        </span>
+        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+      </div>
+       <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+       <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+       <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+      </div>
+           </div>
+       </div>
+        </section>
+     
       <!--
        <nav class="navbar  navbar-fixed-top site-navbar-light sleep navbar-expand-lg  navbar-dark site_navbar" data-spy="affix">
         
