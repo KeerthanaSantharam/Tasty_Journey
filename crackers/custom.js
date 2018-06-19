@@ -1,11 +1,7 @@
-
-
-
-
-(function($) {
+(function ($) {
 
   // Menu filter
-  $("#menu-filters li a").click(function() {
+  $("#menu-filters li a").click(function(){
     $("#menu-filters li a").removeClass('active');
     $(this).addClass('active');
 
