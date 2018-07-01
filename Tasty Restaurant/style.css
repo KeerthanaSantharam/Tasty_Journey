@@ -184,7 +184,7 @@
 }
 .contact-form .form-control
 {
-    color: orangered !important;
+    color: #000 !important;
     font-size: 16px;
     font-weight: normal;
     height: 38px;
@@ -217,6 +217,82 @@
     
     
 }
+.contact-form input:focus, .contact-form text-area:focus {
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+    box-shadow: none;
+    
+}
+.contact-form{
+    margin: 8px 0 9px !important;
+    padding-bottom: 10px;
+}
+.contact-form textarea.form-control
+{
+    color: #000 !important;
+    height: auto;
+}
+.contacts-btn
+{
+    background-color: #FFB038 !important;
+    color: #ffffff !important;
+    height: 54px;width: 170px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    border: 0px;
+    color: #000 !important;
+    outline: none;
+    
+}
+.contacts-btn:hover
+{
+    opacity: 0.8;
+}
+.contacts-btn:active
+{
+    opacity: 1;
+}
+.validation
+{
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+#sendmessage
+{
+    color: green;
+    border: 1px solid green;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#errormessage
+{
+    color: red;
+    border: 1px solid red;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#sendmessage.show, #errormessage.show, .show{
+    display: block;
+}
+.phone-in-talk, .hour-icon
+{
+  font-size: 35px;
+    line-height: 70px;
+    color: #fff;
+}
+
 
 
 /*
