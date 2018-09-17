@@ -15,15 +15,24 @@ html,body
 }
 .navbar
 {
-    padding: .8rem;
+    padding: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
 }
+.navbar-custom{
+	background-color:#ffffff;
+}
+
 .navbar-nav li
 {
     padding-right: 20px;
+	
 }
 .nav-link{
     font-size: 1.1em !important;
+	color: black;
 }
+
 
 .carousel, .carousel-item, .active{
 	height: 100%
@@ -38,23 +47,34 @@ margin-bottom: 60px;
 .carousel-caption
 {
     z-index: 10;
+	
 }
 .carousel .carousel-item{
-	background-color: #777;
+	background-color: blue;
 }
 .carousel .carousel-inner .bg {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .carousel .carousel-inner .bg1 {
-	background-image: url(img/bg1.jpg);
+	background-image: url(img/bg3.jpg);
 	background-position: center top;
 }
+.carousel .carousel-inner .bg2 {
+	background-image: url(img/bg2.jpg);
+	background-position: center center;
+}
 
-/*.carousel-caption h1{
-    font-size: 500%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 15px #000;
+.carousel .carousel-inner .bg3 {
+	background-image: url(img/bg1.jpg);
+	background-position: center bottom;
+}
+
+
+.carousel-caption h1{
+   
+    font-family: 'Satisfy', sans-serif;
+   
     
 }
 .carousel-caption h3
@@ -63,11 +83,8 @@ margin-bottom: 60px;
     font-weight: 500%;
     text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
-}*/
-.btn-outline-light
-{
-   
 }
+
 .btn-outline-light:hover
 {
    background-color: #FFB03B;
@@ -75,7 +92,6 @@ margin-bottom: 60px;
     
 }
 
-background-color: #FFB03B;
 
 .meal-showcase
 {
