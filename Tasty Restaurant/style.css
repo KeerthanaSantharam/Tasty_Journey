@@ -19,9 +19,7 @@ html,body
 	margin-bottom: 0;
 	text-transform: uppercase;
 }
-.navbar-custom{
-	background-color:#ffffff;
-}
+
 
 .navbar-nav li
 {
@@ -31,6 +29,7 @@ html,body
 .nav-link{
     font-size: 1.1em !important;
 	color: black;
+	
 }
 
 
