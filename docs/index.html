@@ -4,20 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tasty Restaurant</title>
- <!-- Latest compiled and minified CSS -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+<link rel="stylesheet" type="text/css" href="style.css">
 
-
-
-<!-- Popper JS -->
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>-->
-
-
- <!-- font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
-   <link href="style.css" rel="stylesheet" type="text/css"> 
-    </head>
+     </head>
     <body>
     
     <!-- Navigation-->
@@ -53,6 +46,7 @@
           
         </div>
     </nav>
+    <!-- Navigation-->
     
     <!-- ImageSlider-->
     <div id ="myCarousel" class="carousel slide" data-ride="carousel" >
@@ -82,19 +76,8 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 		</div>
      </div>
+     <!-- ImageSlider-->
     
-    <!-- Jumbotron
-    <div class="container-fluid">
-        <div class="row jumbotron">
-            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                <p class="lead">industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-                <a href="#"><buton type="button" class="btn btn-outline-secondary btn-lg">Menu</buton></a>
-            </div>
-        </div>
-    </div>
-    -->
     <!-- Welcome Section-->
     
     <div class="container padding" id="about">
@@ -122,21 +105,24 @@
           <div class="col-md-6 col-sm-6">
             <img src="img/about.jpg" alt="about" class="img-fluid">
           </div>
-        </div>
+        </div>    
         
-      </div>
-      <hr class="my-4">
+ </div>
+     
+
+  <!-- Welcome Section-->
     
    <!-- Fixed background-->
 <figure>
-    <div class="fixed-wrap">
+    <div class="fixed-wrap section-padding">
         <div id="fixed">
             
         </div>
     </div>
 </figure>
+ <!-- Fixed background-->
  <!-- Gallery-->
- <div class="container-fluid" id="gallery">
+ <div class="container-fluid " id="gallery">
      <div class="row">
         <div class="meal">
          
@@ -195,34 +181,38 @@
      </div> 
      </div>
  </div>
+ <!-- Gallery-->
   <!-- Menu-->
-  <div id="menu">
-  <section id="menu-list " class="section-padding">
-       <div class="container" >
-           <div class="row">
-               <div class="col-md-12 text-center marb-35">
-                   <h1 class="header-h">Menu List</h1>
-  <p  class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+   <section id="menu-list " class="section-padding">
+    <div class="container" id="menu">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Menu List</h1>
+          <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
             <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
-               </div>
-               <div class="col-md-12 text-center" id="menu-filters">
-                   <ul>
-                        <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li>
-         <li><a class="filter " data-filter=".breakfast">Breakfast</a></li>
-         <li><a class="filter" data-filter=".lunch">Lunch</a></li>
-         <li><a class="filter" data-filter=".dinner">Dinner</a></li>
-                   </ul>
-               </div>
-           <div id="menu-wrapper">
-      <div class="breakfast menu-restaurant">
-        <span class="clearfix">
-          <a class="menu-title" href="#" data-meal-img=".jpg">Food Item Name</a>
-          <span style="left:166px;right:44px;" class="menu-line"></span>
-          <span class="menu-price">$20.99</span>
-        </span>
-        <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-      </div>
-       <div class="breakfast menu-restaurant">
+        </div>
+
+        <div class="col-md-12  text-center" id="menu-filters">
+          <ul>
+            <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li>
+            <li><a class="filter" data-filter=".breakfast">Breakfast</a></li>
+            <li><a class="filter" data-filter=".lunch">Lunch</a></li>
+            <li><a class="filter" data-filter=".dinner">Dinner</a></li>
+          </ul>
+        </div>
+
+        <div id="menu-wrapper">
+
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="breakfast menu-restaurant">
             <span class="clearfix">
               <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
               <span style="left: 166px; right: 44px;" class="menu-line"></span>
@@ -248,14 +238,6 @@
             </span>
             <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
           </div>
-       <div class="lunch menu-restaurant">
-            <span class="clearfix">
-              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
-              <span style="left: 166px; right: 44px;" class="menu-line"></span>
-              <span class="menu-price">$20.99</span>
-            </span>
-            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
-          </div>
 
           <div class="lunch menu-restaurant">
             <span class="clearfix">
@@ -292,7 +274,8 @@
             </span>
             <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
           </div>
-       <div class="dinner menu-restaurant">
+
+          <div class="lunch menu-restaurant">
             <span class="clearfix">
               <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
               <span style="left: 166px; right: 44px;" class="menu-line"></span>
@@ -319,11 +302,21 @@
             <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
           </div>
 
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+        </div>
+
       </div>
-           </div>
-       </div>
-        </section>
-		</div>
+    </div>
+  </section>
+      <!--/ Menu -->
+      
        <!-- contact -->
     <section id="booktable" class="section-padding">
         <div class="container">
@@ -404,16 +397,13 @@
                             <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                         </div>
-						</form>
                     </div>
-                    
-                    
-
                     <div class="col-md-12 btnpad">
                         <div class="contacts-btn-pad">
                             <button class="contacts-btn">Submit</button>
                         </div>
                     </div>
+					</form>
                 </div>
             </div>
         </div>
@@ -447,93 +437,8 @@
 <!-- my javascript -->
 <script src="custom.js"></script> 
          <script src="submitform.js"></script> 
+        
           
     </body>           
 </html>
-      <!--
-       <nav class="navbar  navbar-fixed-top site-navbar-light sleep navbar-expand-lg  navbar-dark site_navbar" data-spy="affix">
-        
-         <div class="container">
-            Brand and toggle get grouped for better mobile display 
-        <div class="navbar-header">
-            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-              <a href="#" class="logo "><img src="img/g.png" class="img-circle " width="100" height="100"></a>   
-               </div> 
-             <div id="navbarCollapse" class="collapse navbar-collapse">
-                  <ul class="nav navbar-nav navbar-right">
-                      <li ><a href="">Home</a></li>
-                      <li><a href="">Work</a></li>
-                      <li><a href="">Services</a></li>
-                      <li><a href="">Clients</a></li>
-                      <li><a href="">Our Team</a></li>
-                      <li><a href="">Contact</a></li>
-                  </ul>
-             </div>
-            
-          
-         </div>
-         </nav>
-         </section>
-         <section id="firstimage" >
-     
-     <div class="container">
-         <div class="row">
-           <div class="inner text-center">
-               <h1 class="name">Delicious</h1>
-                <h2>Food To Fit Your Lifestyle & Health</h3>
-                <p>Specialized in Indian Cuisine!!</p>
-            
-               
-             
-             </div> 
-     </div>
-     </div>
--->
-
-    
-              <!-- <div class="container">
-                <div class="row">
-                  <div class="firstimage"  >
-                     <h3>GOODBYE JUNKFOOD! <br> HELLO SUPER HEALTHY MEALS</h3> 
-                       <div class="button">
-                <a href="" class="btn btn-half">Show me more</a>
-                <a href="" class="btn btn-full">I am hungry</a>
-         </div>
-                  </div>
-                </div>
-            </div>
-             -->
-         
-       
-<!--        </section>-->
-         
-     <!--<script src="js/main.js"></script>-->
-      <!-- <div class="bg">
-        <nav class="navbar navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-                    </button>
-                    <a class="navbar-brand" href="#" ><img src="img/g.png"></a>
-                </div>
-                <div class="collapse navbar-collapse" id="#myNavbar">
-                    <ul class="nav navbar-nav navbar-right ">
-                         <li><a href="">FOOD DELIVERY</a></li>
-                   <li><a href="">FOOD ORDERS</a></li>
-                   <li><a href="">TESTIMONIALS</a></li>
-                   <li><a href="">OUR CITIES</a></li>
-                   <li><a href="">SERVICES</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-          </div>        -->
       
