@@ -1,22 +1,17 @@
-* {
-    box-sizing: border-box;
-}
 
-ol,ul {
-	list-style: none;
-}
+
 html,body
-{
-	
-	
+   {
+	font-size: 15px;
     height: 100%;
-   margin: 0;
-	padding: 0;
    
     color: #717f86;
     
     font-family: 'Open Sans', sans-serif;
    
+}
+ol, ul {
+	list-style: none;
 }
 .navbar
 {
@@ -110,7 +105,7 @@ margin-bottom: 60px;
 }
 
 
-.meal-showcase
+/*.meal-showcase
 {
     list-style: none;
     width: 100%;
@@ -139,7 +134,58 @@ margin-bottom: 60px;
 .meal-photo img:hover
 {
     transform: scale(1.05);
+} */
+.gallery-item{
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+	
 }
+
+.gallery-item img{
+	display: block;
+width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover{
+	transform: scale(1.15);
+}
+
+.gallery-image{
+	max-width: 100%;
+	
+}
+
+
+.gallery{
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 1rem;
+}
+@media screen and (min-width:600px) {
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.gallery-item{
+		width: 50%;
+	}
+	
+}
+@media screen and (min-width:1000px) {
+	
+	.gallery-item{
+		width: calc(100% / 3);
+	}
+}
+
 
 .header-h {
         font-size: 35px;
@@ -158,10 +204,11 @@ margin-bottom: 60px;
 .marb-35{
   margin-bottom:35px;
 }
+
 .menu-restaurant{
     width: 50%;
     float: left;
-   
+   padding: 15px;
     position: relative;
 }
 .menu-restaurant .menu-title {
@@ -181,6 +228,7 @@ margin-bottom: 60px;
 .menu-restaurant .menu-price {
     font-weight: 600;
     position: absolute;
+
     right: 0;
     top: 0;
 }
@@ -195,6 +243,7 @@ margin-bottom: 60px;
     position: relative;
     display: block;
 }
+
 
 #menu-filters ul li a.active, #menu-filters ul li a:hover {
     background: #FFB03B;
@@ -217,6 +266,7 @@ margin-bottom: 60px;
     text-decoration: none;
     cursor: pointer;
 }
+
 
 .footer{
     width: 100%;
@@ -357,7 +407,7 @@ margin-bottom: 60px;
     
 }
 
-.form-control,.form-group .form-control
+.form-control,.form-group.form-control
 {
     border: none;
     outline: none;
@@ -510,7 +560,7 @@ margin-bottom: 60px;
     }
 }
 @media(min-width:20px)and (max-width:450px){
-	.menu-restaurant .menu-filters{
+	.menu-restaurant {
 		width: 100%;
 	}
 	.header-h {
