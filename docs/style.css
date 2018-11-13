@@ -1,4 +1,6 @@
-
+*{
+	  box-sizing: border-box;
+}
 
 html,body
    {
@@ -13,6 +15,8 @@ html,body
 ol, ul {
 	list-style: none;
 }
+
+
 .navbar
 {
     padding: 0;
@@ -23,7 +27,7 @@ ol, ul {
 
 .navbar-nav li
 {
-    padding-right: 20px;
+    padding-right: 40px;
 	
 }
 .nav-link{
@@ -203,6 +207,7 @@ width: 100%;
 }
 .marb-35{
   margin-bottom:35px;
+	
 }
 
 .menu-restaurant{
