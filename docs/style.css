@@ -16,13 +16,13 @@ ol, ul {
 	list-style: none;
 }
 
-
 .navbar
 {
     padding: 0;
 	margin-bottom: 0;
 	text-transform: uppercase;
 }
+
 
 
 .navbar-nav li
@@ -45,9 +45,54 @@ ol, ul {
   border-bottom:0.5px solid #FFB03B;
     transition: all 0.5s ease-in;
    
-  
 }
 
+ .icon-bar {
+ height: .5rem;
+  margin-left: .75rem;
+  margin-top: 1.75rem;
+  width: 2.5rem;
+    background-color: black;
+    margin: 6px 0;
+	 display: block;
+	 position: relative;
+	 
+	
+}
+
+.navbar-toggler span.icon-bar {
+    transition: all 0.15s; /*icon bar animation*/
+}
+
+
+.navbar-toggler {
+    border:0;
+	 cursor: pointer;
+	
+}
+.navbar-toggler span:nth-child(2){
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+.navbar-toggler span:nth-child(3){
+	opacity: 0;
+}
+.navbar-toggler span:nth-child(4){
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
+}
+.navbar-toggler.collapsed span:nth-child(2),
+.navbar-toggler.collapsed span:nth-child(4){
+	transform: rotate(0);
+}
+.navbar-toggler.collapsed span:nth-child(3){
+	opacity: 1;
+}
+
+.navbar-toggler:hover {
+  background-color: #f1c40f; /* Changes toggle color on hover */
+	
+}
 
 .carousel, .carousel-item, .active{
 	height: 100%
@@ -582,6 +627,10 @@ width: 100%;
 	}
 	#banner p{
 		font-size: 25px;
+	}
+	.sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+		
 	}
 
 }
