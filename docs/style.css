@@ -1,26 +1,30 @@
 *{
 	  box-sizing: border-box;
+	
+	
 }
 
 html,body
    {
 	font-size: 15px;
     height: 100%;
-   
+   	margin: 0;
+    padding: 0;
     color: #717f86;
     
     font-family: 'Open Sans', sans-serif;
    
 }
-ol, ul {
-	list-style: none;
-}
+
+
 
 .navbar
 {
-    padding: 0;
-	margin-bottom: 0;
+   
+	display: block;
 	text-transform: uppercase;
+padding: 0;
+	
 }
 
 
@@ -62,12 +66,15 @@ ol, ul {
 
 .navbar-toggler span.icon-bar {
     transition: all 0.15s; /*icon bar animation*/
+	
+    
 }
 
 
 .navbar-toggler {
     border:0;
 	 cursor: pointer;
+	
 	
 }
 .navbar-toggler span:nth-child(2){
@@ -95,20 +102,25 @@ ol, ul {
 }
 
 .carousel, .carousel-item, .active{
-	height: 100%
+	height: 100%;
+	
+	
 }
 .carousel-inner 
 {
- height: 100%
+ height: 100%;
+	
 }
 .carousel {
 margin-bottom: 60px;
+	
 }
 .carousel-caption
 {
     z-index: 10;
 	
 }
+
 
 .carousel .carousel-inner .bg {
 	background-repeat: no-repeat;
@@ -628,11 +640,10 @@ width: 100%;
 	#banner p{
 		font-size: 25px;
 	}
-	.sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+	
 		
 	}
 
-}
+
 
 
